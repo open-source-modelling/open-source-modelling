@@ -80,4 +80,8 @@ Suggestions, bug reports and new algorithms are welcome.
 - **Found a bug or a question?** Open an issue on the relevant repository.
 - **Have an implementation or an AI skill your team uses?** Get in touch and we'll help publish it in `insurance_skills`.
 
+### Support
+
+We support the Open Source Modelling development by taking paid project work through Qnity Consultants. For any referals, email gregor@osmodelling.com.
+
 📧 gregor@osmodelling.com · [LinkedIn](https://www.linkedin.com/company/open-source-modelling) · [qnityconsultants.com](https://qnityconsultants.com)
