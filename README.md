@@ -82,6 +82,6 @@ Suggestions, bug reports and new algorithms are welcome.
 
 ### Support
 
-We support the Open Source Modelling development by taking paid project work through Qnity Consultants. For any referals, email gregor@osmodelling.com.
+We support the Open-Source Modelling development by taking paid project work through Qnity Consultants. For any referals, email gregor@osmodelling.com.
 
 📧 gregor@osmodelling.com · [LinkedIn](https://www.linkedin.com/company/open-source-modelling) · [qnityconsultants.com](https://qnityconsultants.com)
