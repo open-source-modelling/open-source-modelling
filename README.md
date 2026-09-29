@@ -64,15 +64,6 @@ Each team's data is different, so fork a skill and adapt its rules. **Does your 
 
 ---
 
-### Using it in production?
-
-Open code is where a model starts. Making it hold up in reporting takes more work: validation, integration and training. [Qnity Consultants](https://qnityconsultants.com) does exactly that for life insurers, pension funds and ALM teams in the UK and Europe:
-- independent validation of scenario generators and yield curves
-- moving Excel and VBA processes to Python
-- asset-liability and TVOG modelling
-- building AI assistant workflows that are auditable and can be reviewed like any other model
-- training actuarial teams to maintain the models themselves
-
 ### Contributing
 
 Suggestions, bug reports and new algorithms are welcome.
@@ -81,7 +72,7 @@ Suggestions, bug reports and new algorithms are welcome.
 
 ### Support
 
-We support the Open-Source Modelling development by taking paid project work through Qnity Consultants.
+We support the Open-Source Modelling development by taking paid project work. Open code is where a model starts. Making it hold up in reporting takes more work: validation, integration and training. Through [Qnity Consultants](https://qnityconsultants.com) we do exactly that for life insurers, pension funds and ALM teams.
 
 
 📧 gregor@osmodelling.com · [LinkedIn](https://www.linkedin.com/company/open-source-modelling) · [qnityconsultants.com](https://qnityconsultants.com)
