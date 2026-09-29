@@ -73,8 +73,6 @@ Open code is where a model starts. Making it hold up in reporting takes more wor
 - building AI assistant workflows that are auditable and can be reviewed like any other model
 - training actuarial teams to maintain the models themselves
 
-We work in English, Italian, German and Slovenian.
-
 ### Contributing
 
 Suggestions, bug reports and new algorithms are welcome.
@@ -83,6 +81,5 @@ Suggestions, bug reports and new algorithms are welcome.
 
 ### Support
 
-We support the Open-Source Modelling development by taking paid project work through Qnity Consultants. For any referals, email gregor@osmodelling.com.
-
+We support the Open-Source Modelling development by taking paid project work through Qnity Consultants.
 📧 gregor@osmodelling.com · [LinkedIn](https://www.linkedin.com/company/open-source-modelling) · [qnityconsultants.com](https://qnityconsultants.com)
