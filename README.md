@@ -4,7 +4,7 @@
 
 Everything here is free to use and fork under the MIT licence (the asset-liability model uses MPL-2.0). Each algorithm comes with its source paper or regulatory document, a worked example and tests, so you can check the result instead of trusting it.
 
-Open-Source Modelling started in Milan in 2021. It is funded and maintained by [Qnity Consultants](https://qnityconsultants.com).
+Open-Source Modelling started in 2021. It is funded and maintained by [Qnity Consultants](https://qnityconsultants.com).
 
 ---
 
