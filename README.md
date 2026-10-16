@@ -18,6 +18,8 @@ Open-Source Modelling started in 2021. It is funded and maintained by [Qnity Con
 | [insurance_skills](https://github.com/open-source-modelling/insurance_skills) | AI assistant skills for actuarial work, where the calculation runs in Python and the assistant is just the interface |
 | [Open_Source_Economic_Model](https://github.com/open-source-modelling/Open_Source_Economic_Model) | A full asset-liability model (OSEM) for insurers and pension funds, with a methodology document |
 | [Light_Economic_Generator](https://github.com/open-source-modelling/Light_Economic_Generator) | Simple economic stochastic generator with 3 different stochastic models |
+| [EIOPA new RFR methodology](https://github.com/open-source-modelling/EIOPA_constant_forward_methodology) | Python implementation of the new EIOPA RFR methodology |
+
 
 ### What's covered
 
