@@ -1,6 +1,6 @@
 ## Open-Source Modelling
 
-**Open, tested algorithms for actuaries and risk managers**, as an alternative to closed commercial software.
+**Open, tested software for actuaries and risk managers**, as an alternative to commercial software.
 
 Everything here is free to use and fork under the MIT licence. Each algorithm comes with its source paper or regulatory document, a worked example and tests, so you can check the result instead of trusting it.
 
@@ -12,14 +12,13 @@ Open-Source Modelling started in 2021. It is funded and maintained by [Qnity Con
 
 | Repository | What it is |
 |---|---|
+| [EIOPA new RFR methodology](https://github.com/open-source-modelling/EIOPA_constant_forward_methodology) | Python implementation of the new EIOPA RFR methodology |
 | [insurance_python](https://github.com/open-source-modelling/insurance_python) | Every Python algorithm in one place: yield curves, short-rate models, bootstrapping, time series |
 | [insurance_matlab](https://github.com/open-source-modelling/insurance_matlab) | The same algorithms for Matlab users |
 | [insurance_jupyter](https://github.com/open-source-modelling/insurance_jupyter) | Notebooks that walk through the methods step by step |
 | [insurance_skills](https://github.com/open-source-modelling/insurance_skills) | AI assistant skills for actuarial work, where the calculation runs in Python and the assistant is just the interface |
 | [Open_Source_Economic_Model](https://github.com/open-source-modelling/Open_Source_Economic_Model) | A full asset-liability model (OSEM) for insurers and pension funds, with a methodology document |
 | [Light_Economic_Generator](https://github.com/open-source-modelling/Light_Economic_Generator) | Simple economic stochastic generator with 3 different stochastic models |
-| [EIOPA new RFR methodology](https://github.com/open-source-modelling/EIOPA_constant_forward_methodology) | Python implementation of the new EIOPA RFR methodology |
-
 
 ### What's covered
 
