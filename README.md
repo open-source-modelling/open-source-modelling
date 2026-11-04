@@ -14,15 +14,16 @@ Open-Source Modelling started in 2021. It is funded and maintained by [Qnity Con
 |---|---|
 | [EIOPA new RFR methodology](https://github.com/open-source-modelling/EIOPA_constant_forward_methodology) | Python implementation of the new EIOPA RFR methodology |
 | [insurance_python](https://github.com/open-source-modelling/insurance_python) | Every Python algorithm in one place: yield curves, short-rate models, bootstrapping, time series |
+| [Open_Source_Economic_Model](https://github.com/open-source-modelling/Open_Source_Economic_Model) | A full asset-liability model (OSEM) for insurers and pension funds, with a methodology document |
 | [insurance_matlab](https://github.com/open-source-modelling/insurance_matlab) | The same algorithms for Matlab users |
 | [insurance_jupyter](https://github.com/open-source-modelling/insurance_jupyter) | Notebooks that walk through the methods step by step |
 | [insurance_skills](https://github.com/open-source-modelling/insurance_skills) | AI assistant skills for actuarial work, where the calculation runs in Python and the assistant is just the interface |
-| [Open_Source_Economic_Model](https://github.com/open-source-modelling/Open_Source_Economic_Model) | A full asset-liability model (OSEM) for insurers and pension funds, with a methodology document |
 | [Light_Economic_Generator](https://github.com/open-source-modelling/Light_Economic_Generator) | Simple economic stochastic generator with 3 different stochastic models |
 
 ### What's covered
 
 **Yield curves and Solvency II**
+- 2027 RFR methodology using constant forward assumptions, available as a PyPl package
 - Smith-Wilson interpolation and extrapolation, following EIOPA's technical documentation, with calibration of alpha
 - Nelson-Siegel-Svensson curve fitting
 - Checks that recalculate EIOPA's monthly risk-free rate curves
@@ -41,9 +42,6 @@ Open-Source Modelling started in 2021. It is funded and maintained by [Qnity Con
 **Open data**
 - [SFCR tables for 22 Italian life insurers](https://github.com/open-source-modelling/SFCR_using_Mistral_2025) (S.02.01, S.23.01, S.25.01), extracted with integrity checks
 - Pipelines for [EDGAR sovereign emissions](https://github.com/open-source-modelling/EDGAR_pipeline) and [IMF PPP GDP](https://github.com/open-source-modelling/IMF_GDP_pipeline), for carbon-intensity reporting
-
-Italian-language versions of several algorithms are in [assicurazione_python](https://github.com/open-source-modelling/assicurazione_python).
-
 ---
 
 ### AI workflows for actuarial teams
@@ -60,9 +58,6 @@ Every skill follows one rule. **The checks and calculations run in tested Python
 | [ranking_life_script](https://github.com/open-source-modelling/ranking_life_script) | Gives several AI models the same customer scenario and records how each one ranks a list of life insurers, and why. It measures how AI assistants perceive your company next to its peers |
 
 AI also does the heavy lifting in our open data. The [SFCR tables](https://github.com/open-source-modelling/SFCR_using_Mistral_2025) are extracted from PDF reports with Mistral OCR, then validated with accounting integrity checks. Those checks have already caught a likely transposition error in a published report.
-
-Each team's data is different, so fork a skill and adapt its rules. **Does your team have a skill that works well? Share it.** Contributions are very welcome.
-
 ---
 
 ### Contributing
@@ -70,7 +65,7 @@ Each team's data is different, so fork a skill and adapt its rules. **Does your 
 Suggestions, bug reports and new algorithms are welcome.
 - **Found a bug or a question?** Open an issue on the relevant repository.
 - **Have an implementation or an AI skill your team uses?** Get in touch and we'll help publish it in `insurance_skills`.
-
+- **Does your team have a skill that works well? Share it.**
 ### Support
 
 We support the Open-Source Modelling development by taking paid project work. Open code is where a model starts. Making it hold up in reporting takes more work: validation, integration and training. Through [Qnity Consultants](https://qnityconsultants.com) we do exactly that for life insurers, pension funds and ALM teams.
