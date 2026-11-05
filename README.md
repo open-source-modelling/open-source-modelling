@@ -56,9 +56,10 @@ Every skill follows one rule. **The checks and calculations run in tested Python
 | [spontaneous-testing-for-excel](https://github.com/open-source-modelling/spontaneous-testing-for-excel) | You list tests for a workbook in plain English on a `TEST` sheet. The skill runs each one and writes back what it checked and whether it passed, without touching anything else |
 | [validate-ul-fund-data](https://github.com/open-source-modelling/validate-ul-fund-data) | Runs 22 checks on the shape, types and internal consistency of a periodic fund data extract. It returns a pass/fail report and a SHA-256 fingerprint of the file, so bad data is caught before a re-run |
 | [ranking_life_script](https://github.com/open-source-modelling/ranking_life_script) | Gives several AI models the same customer scenario and records how each one ranks a list of life insurers, and why. It measures how AI assistants perceive your company next to its peers |
-
-AI also does the heavy lifting in our open data. The [SFCR tables](https://github.com/open-source-modelling/SFCR_using_Mistral_2025) are extracted from PDF reports with Mistral OCR, then validated with accounting integrity checks. Those checks have already caught a likely transposition error in a published report.
 ---
+
+The [SFCR tables](https://github.com/open-source-modelling/SFCR_using_Mistral_2025) are extracted from PDF reports with Mistral OCR, then validated with accounting integrity checks. Those checks have already caught a likely transposition error in a published report.
+
 
 ### Contributing
 
