@@ -1,11 +1,10 @@
-## Open-Source Modelling
+# Open-Source Modelling
 
-**Open, tested software for actuaries and risk managers**, as an alternative to commercial software.
+**Free, tested Python for actuaries and risk managers.** Recalculate EIOPA's risk-free curves, run an asset-liability model, or generate economic scenarios, all without a commercial licence.
 
-Everything here is free to use and fork under the MIT licence. Each algorithm comes with its source paper or regulatory document, a worked example and tests, so you can check the result instead of trusting it.
+Each algorithm comes with its source paper or regulatory document, a worked example and tests, so you can check the result instead of trusting it.
 
-Open-Source Modelling started in 2021. It is funded and maintained by [Qnity Consultants](https://qnityconsultants.com).
-
+MIT licence · since 2021 · maintained by [Qnity Consultants](https://qnityconsultants.com)
 ---
 
 ### Start here
