@@ -14,11 +14,12 @@ Open-Source Modelling started in 2021. It is funded and maintained by [Qnity Con
 |---|---|
 | [EIOPA new RFR methodology](https://github.com/open-source-modelling/EIOPA_constant_forward_methodology) | Python implementation of the new EIOPA RFR methodology |
 | [Open_Source_Economic_Model](https://github.com/open-source-modelling/Open_Source_Economic_Model) | A full asset-liability model (OSEM) for insurers and pension funds, with a methodology document |
-| [insurance_python](https://github.com/open-source-modelling/insurance_python) | Every Python algorithm in one place: yield curves, short-rate models, bootstrapping, time series |
-| [insurance_matlab](https://github.com/open-source-modelling/insurance_matlab) | The same algorithms for Matlab users |
-| [insurance_jupyter](https://github.com/open-source-modelling/insurance_jupyter) | Notebooks that walk through the methods step by step |
-| [insurance_skills](https://github.com/open-source-modelling/insurance_skills) | AI assistant skills for actuarial work, where the calculation runs in Python and the assistant is just the interface |
 | [Light_Economic_Generator](https://github.com/open-source-modelling/Light_Economic_Generator) | Simple economic stochastic generator with 3 different stochastic models |
+| [insurance_python](https://github.com/open-source-modelling/insurance_python) | Every Python algorithm in one place: yield curves, short-rate models, bootstrapping, time series |
+| [insurance_skills](https://github.com/open-source-modelling/insurance_skills) | AI assistant skills for actuarial work and studies using GPT models.  |
+| [insurance_open_data](https://github.com/open-source-modelling/insurance_open_data) | Data pipelines from publicly available sources in Python. |
+| [insurance_jupyter](https://github.com/open-source-modelling/insurance_jupyter) | Notebooks that walk through the methods step by step |
+
 
 ### What's covered
 
