@@ -2,74 +2,24 @@
 
 **Free, tested Python for actuaries and risk managers.** Recalculate EIOPA's risk-free curves, run an asset-liability model, or generate economic scenarios, all without a commercial licence.
 
-Each algorithm comes with its source paper or regulatory document, a worked example and tests, so you can check the result instead of trusting it.
-
-MIT licence · since 2021 · maintained by [Qnity Consultants](https://qnityconsultants.com)
----
+Every algorithm comes with its source paper, a worked example and tests, so you can check the result instead of trusting it.
 
 ### Start here
 
-| Repository | What it is |
+| I want to… | Go to |
 |---|---|
-| [EIOPA new RFR methodology](https://github.com/open-source-modelling/EIOPA_constant_forward_methodology) | Python implementation of the new EIOPA RFR methodology |
-| [Open_Source_Economic_Model](https://github.com/open-source-modelling/Open_Source_Economic_Model) | A full asset-liability model (OSEM) for insurers and pension funds, with a methodology document |
-| [Light_Economic_Generator](https://github.com/open-source-modelling/Light_Economic_Generator) | Simple economic stochastic generator with 3 different stochastic models |
-| [insurance_python](https://github.com/open-source-modelling/insurance_python) | Every Python algorithm in one place: yield curves, short-rate models, bootstrapping, time series |
-| [insurance_skills](https://github.com/open-source-modelling/insurance_skills) | AI assistant skills for actuarial work and studies using GPT models.  |
-| [insurance_open_data](https://github.com/open-source-modelling/insurance_open_data) | Data pipelines from publicly available sources in Python. |
-| [insurance_jupyter](https://github.com/open-source-modelling/insurance_jupyter) | Notebooks that walk through the methods step by step |
+| Compute the 2027 EIOPA risk-free curve | [EIOPA_constant_forward_methodology](https://github.com/open-source-modelling/EIOPA_constant_forward_methodology) |
+| Project assets and liabilities for an insurer or pension fund | [Open_Source_Economic_Model](https://github.com/open-source-modelling/Open_Source_Economic_Model) |
+| Generate economic scenarios | [Light_Economic_Generator](https://github.com/open-source-modelling/Light_Economic_Generator) |
+| Browse all algorithms: Smith-Wilson, Nelson-Siegel-Svensson, short-rate models, bootstrapping | [insurance_python](https://github.com/open-source-modelling/insurance_python) |
+| Learn the methods step by step | [insurance_jupyter](https://github.com/open-source-modelling/insurance_jupyter) |
+| Get public data: every EIOPA curve since 2014, SFCR tables, emissions, GDP | [insurance_open_data](https://github.com/open-source-modelling/insurance_open_data) |
+| Use AI assistants where tested Python does the calculating | [insurance_skills](https://github.com/open-source-modelling/insurance_skills) |
 
+### Get involved
 
-### What's covered
+Found a bug? Open an issue on the relevant repository. Have an algorithm or AI skill your team relies on? Get in touch and we'll help publish it.
 
-**Yield curves and Solvency II**
-- 2027 RFR methodology using constant forward assumptions, available as a PyPl package
-- Smith-Wilson interpolation and extrapolation, following EIOPA's technical documentation, with calibration of alpha
-- Nelson-Siegel-Svensson curve fitting
-- Checks that recalculate EIOPA's monthly risk-free rate curves
-- [Every historical EIOPA curve](https://github.com/open-source-modelling/EIOPA_all_curves) since December 2014, in three CSV files
+Need it production-ready? [Qnity Consultants](https://qnityconsultants.com), who maintain this project, help life insurers, pension funds and ALM teams with validation, integration and training.
 
-**Interest rates and economic scenarios**
-- Vasicek (one- and two-factor), Hull-White one-factor and Dothan short-rate models
-- Black-Scholes, correlated Brownian motion and binomial option pricing
-- [A lightweight economic scenario generator](https://github.com/open-source-modelling/Light_Economic_Generator)
-- [A validation framework for a monthly scenario generator](https://github.com/open-source-modelling/Validation_Economic_Stochastic_Generator), a reduced version of a framework built for an Italian bancassurance group
-
-**Statistics and time series**
-- Stationary bootstrap, with automatic block-length calibration
-- Singular spectrum analysis
-
-**Open data**
-- [SFCR tables for 22 Italian life insurers](https://github.com/open-source-modelling/SFCR_using_Mistral_2025) (S.02.01, S.23.01, S.25.01), extracted with integrity checks
-- Pipelines for [EDGAR sovereign emissions](https://github.com/open-source-modelling/EDGAR_pipeline) and [IMF PPP GDP](https://github.com/open-source-modelling/IMF_GDP_pipeline), for carbon-intensity reporting
----
-
-### AI workflows for actuarial teams
-
-Teams are starting to use AI assistants such as Claude, Copilot and ChatGPT in their daily work, but there's been no shared place for insurance-specific tools. [insurance_skills](https://github.com/open-source-modelling/insurance_skills) is that place: an open collection of reusable assistant skills.
-
-Every skill follows one rule. **The checks and calculations run in tested Python; the assistant is only the interface.** You ask in plain English, and the answer comes from code you can read, so the model can't make up a number.
-
-| Skill | What it does |
-|---|---|
-| [historic-eiopa-yield-curve](https://github.com/open-source-modelling/eiopa-yield-curve-skill) | Returns any historic EIOPA risk-free rate curve, for any country, maturity and date since December 2014, including forwards, discount factors and stressed curves |
-| [spontaneous-testing-for-excel](https://github.com/open-source-modelling/spontaneous-testing-for-excel) | You list tests for a workbook in plain English on a `TEST` sheet. The skill runs each one and writes back what it checked and whether it passed, without touching anything else |
-| [validate-ul-fund-data](https://github.com/open-source-modelling/validate-ul-fund-data) | Runs 22 checks on the shape, types and internal consistency of a periodic fund data extract. It returns a pass/fail report and a SHA-256 fingerprint of the file, so bad data is caught before a re-run |
-| [ranking_life_script](https://github.com/open-source-modelling/ranking_life_script) | Gives several AI models the same customer scenario and records how each one ranks a list of life insurers, and why. It measures how AI assistants perceive your company next to its peers |
----
-
-The [SFCR tables](https://github.com/open-source-modelling/SFCR_using_Mistral_2025) are extracted from PDF reports with Mistral OCR, then validated with accounting integrity checks. Those checks have already caught a likely transposition error in a published report.
-
-
-### Contributing
-
-Suggestions, bug reports and new algorithms are welcome.
-- **Found a bug or a question?** Open an issue on the relevant repository.
-- **Have an implementation or an AI skill your team uses?** Get in touch and we'll help publish it in `insurance_skills`.
-- **Does your team have a skill that works well? Share it.**
-### Support
-
-We support the Open-Source Modelling development by taking paid project work. Open code is where a model starts. Making it hold up in reporting takes more work: validation, integration and training. Through [Qnity Consultants](https://qnityconsultants.com) we do exactly that for life insurers, pension funds and ALM teams.
-
-
-📧 gregor@osmodelling.com · [LinkedIn](https://www.linkedin.com/company/open-source-modelling) · [qnityconsultants.com](https://qnityconsultants.com)
+📧 gregor@osmodelling.com · [LinkedIn](https://www.linkedin.com/company/open-source-modelling) · MIT licence · since 2021
